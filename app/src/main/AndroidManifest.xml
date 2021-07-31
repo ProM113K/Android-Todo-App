@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UASAndroid">
         <activity
+            android:name=".UpdateActivity"
+            android:exported="true" />
+        <activity
             android:name=".RegisterActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:exported="true"

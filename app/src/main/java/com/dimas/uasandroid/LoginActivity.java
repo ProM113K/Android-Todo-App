@@ -151,7 +151,7 @@ public class LoginActivity extends AppCompatActivity {
                         Toast.makeText(getApplicationContext(), "Successfully Logged in!", Toast.LENGTH_LONG).show();
 
                         //User Logged in Successfully Launch You home screen activity
-                        Intent intent = new Intent(LoginActivity.this, InputForm.class);
+                        Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                         startActivity(intent);
 
                     } else {

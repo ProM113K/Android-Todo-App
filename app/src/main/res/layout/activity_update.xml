@@ -5,8 +5,8 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg_input_form"
-    tools:context=".InputForm">
+    android:background="@drawable/bg_update_form"
+    tools:context=".UpdateActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -23,7 +23,7 @@
             android:fontFamily="@font/roboto_light"
             android:textColor="@color/white"
             android:textSize="40sp"
-            android:text="Input your article"/>
+            android:text="Edit your article"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -34,7 +34,7 @@
             android:background="@drawable/linearlayout_edit">
 
             <EditText
-                android:id="@+id/etTitle"
+                android:id="@+id/etTitleUpdate"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Input title is here"
@@ -44,7 +44,7 @@
                 android:drawableLeft="@drawable/ic_list"/>
 
             <EditText
-                android:id="@+id/etBody"
+                android:id="@+id/etBodyUpdate"
                 android:layout_width="match_parent"
                 android:layout_height="230dp"
                 android:layout_marginTop="20dp"
@@ -53,11 +53,11 @@
                 android:background="@drawable/et_background"/>
 
             <Button
-                android:id="@+id/btn_submit_data"
+                android:id="@+id/btn_update"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/light_blue_A200"
-                android:text="SUBMIT DATA"
+                android:backgroundTint="@color/teal_700"
+                android:text="Update"
                 android:fontFamily="@font/roboto_light"
                 android:layout_marginTop="20dp"/>
         </LinearLayout>
