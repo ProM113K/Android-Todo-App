@@ -4,8 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Files/UASAndroid/app/src/main/res/drawable/button_rounded.xml" value="0.20052083333333334" />
+        <entry key="..\:/Files/UASAndroid/app/src/main/res/drawable/et_background.xml" value="0.20052083333333334" />
         <entry key="..\:/Files/UASAndroid/app/src/main/res/drawable/ic_icon_feather_mail.xml" value="0.20052083333333334" />
-        <entry key="..\:/Files/UASAndroid/app/src/main/res/layout/activity_input_form.xml" value="0.184375" />
+        <entry key="..\:/Files/UASAndroid/app/src/main/res/drawable/ic_list.xml" value="0.20052083333333334" />
+        <entry key="..\:/Files/UASAndroid/app/src/main/res/drawable/linearlayout_edit.xml" value="0.20052083333333334" />
+        <entry key="..\:/Files/UASAndroid/app/src/main/res/layout/activity_input_form.xml" value="0.22598870056497175" />
         <entry key="..\:/Files/UASAndroid/app/src/main/res/layout/activity_login.xml" value="0.22" />
         <entry key="..\:/Files/UASAndroid/app/src/main/res/layout/activity_main.xml" value="0.1703125" />
         <entry key="..\:/Files/UASAndroid/app/src/main/res/layout/activity_register.xml" value="0.184375" />
