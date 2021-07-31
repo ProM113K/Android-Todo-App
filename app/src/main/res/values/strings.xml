@@ -6,4 +6,7 @@
     <string name="title_activity_login">LoginActivity</string>
     <string name="welcome_back">Welcome Back!</string>
     <string name="title_activity_register">RegisterActivity</string>
+    <string name="todo">TODO</string>
+    <string name="title">Title</string>
+    <string name="body">Body</string>
 </resources>
