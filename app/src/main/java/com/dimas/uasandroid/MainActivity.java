@@ -50,6 +50,12 @@ public class MainActivity extends AppCompatActivity {
         list = dbhelp.getAll();
         adapter = new ListAdapter(this, list);
         recyclerView.setAdapter(adapter);
+
+        View decorView = getWindow().getDecorView();
+
+        int uiOptions = View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
+                | View.SYSTEM_UI_FLAG_FULLSCREEN;
+        decorView.setSystemUiVisibility(uiOptions);
     }
 
     @Override

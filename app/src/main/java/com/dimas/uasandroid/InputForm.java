@@ -41,10 +41,15 @@ public class InputForm extends AppCompatActivity {
         btnSbmtData.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                dbhelp.insertData(etTitle.getText().toString(), etBody.getText().toString());
-                showAlertDialog(R.layout.custom_alert_input);
-                etTitle.getText().clear();
-                etBody.getText().clear();
+                if (etTitle.getText().toString().isEmpty() || etBody.getText().toString().isEmpty()) {
+                    Toast.makeText(getApplicationContext(), "Data harus diisi", Toast.LENGTH_LONG).show();
+
+                } else {
+                    dbhelp.insertData(etTitle.getText().toString(), etBody.getText().toString());
+                    showAlertDialog(R.layout.custom_alert_input);
+                    etTitle.getText().clear();
+                    etBody.getText().clear();
+                }
             }
         });
     }
