@@ -9,6 +9,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class UpdateActivity extends AppCompatActivity {
     EditText etTitleUpdate, etBodyUpdate;
@@ -42,6 +43,7 @@ public class UpdateActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 dbhelp.updateData(model.getId(), etTitleUpdate.getText().toString(), etBodyUpdate.getText().toString());
+                Toast.makeText(getApplicationContext(), "Data berhasil diubah", Toast.LENGTH_LONG).show();
                 finish();
             }
         });
