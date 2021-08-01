@@ -125,6 +125,9 @@ public class MainActivity extends AppCompatActivity {
                         public void onClick(DialogInterface dialogInterface, int i) {
                             dbhelp.deleteData(model.getId());
                             dialogInterface.dismiss();
+                            list = dbhelp.getAll();
+                            adapter = new ListAdapter(MainActivity.this, list);
+                            recyclerView.setAdapter(adapter);
                             notifyDataSetChanged();
                         }
                     });
